@@ -1,0 +1,1 @@
+C:\repos\BLE_Win_M5Stack_Serial_Test\src\UWP_Bluetooth_Serial_Test\UWP_Bluetooth_Serial_Test\UWP_Bluetooth_Serial_Test.csproj;x86

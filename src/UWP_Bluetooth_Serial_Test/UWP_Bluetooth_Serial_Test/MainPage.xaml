@@ -1,0 +1,41 @@
+﻿<Page
+    x:Class="UWP_Bluetooth_Serial_Test.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:UWP_Bluetooth_Serial_Test"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    mc:Ignorable="d">
+
+    <Grid>
+        <Button
+            Width="221"
+            Height="95"
+            Margin="300,170,0,0"
+            VerticalAlignment="Top"
+            Click="ConnectButton_Click"
+            Content="Connect"
+            FontSize="30" />
+
+        <Button
+            Width="221"
+            Height="95"
+            Margin="640,170,0,0"
+            VerticalAlignment="Top"
+            Click="StartReadingButton_Click"
+            Content="Start Reading"
+            FontSize="30" />
+
+        <TextBlock
+            x:Name="textBox"
+            Width="721"
+            Height="340"
+            Margin="300,384,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            FontSize="30"
+            Text="TextBlock"
+            TextWrapping="Wrap" />
+    </Grid>
+</Page>
